@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Aashath - Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        #about {
+            text-align: center;
+            padding: 2em;
+        }
+
+        #about img {
+            border-radius: 50%;
+            max-width: 200px;
+            margin-bottom: 1em;
+        }
+
+        #skills {
+            background-color: #eee;
+            padding: 2em;
+        }
+
+        #projects {
+            padding: 2em;
+        }
+
+        .project {
+            margin-bottom: 2em;
+        }
+
+        .project img,
+        .testimonial img {
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+        }
+
+        #resume,
+        #testimonials {
+            text-align: center;
+            padding: 2em;
+        }
+
+        #testimonials {
+            background-color: #f9f9f9;
+        }
+
+        .testimonial {
+            margin-bottom: 2em;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .testimonial cite {
+            display: block;
+            margin-top: 0.5em;
+            font-style: italic;
+            color: #555;
+        }
+
+        #contact {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+            #about img {
+                max-width: 100%;
+            }
+
+            .project img,
+            .testimonial img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mohamed Aashath</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <p>
+            Hi, I'm Mohamed Aashath, a passionate web developer with a keen eye for design.
+            I have experience in creating user-friendly and visually appealing websites.
+        </p>
+    </section>
+    <center></center>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+            <li>DataBase Knowledge</li>
+            <li>Java And C programming </li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>RESULT MANAGEMENT SYSTEM(2023)
+            </h3>
+
+            <p>Using HTML CSS JavaScript PHP MySQL, I created a
+                result management system project. The project's first
+                page has two fields: faculty login and student login.
+                Clicking the faculty login button takes us directly to the
+                faculty login page. The faculty's username and password
+                are unique to them and can only be entered by the
+                faculty. If the username and password match, the user will
+                be directed to the student mark database, where they can
+                enter the student's name, register number, department,
+                eight subject grades, result, and GPA. Upon selecting the
+                student login option, a page will load. When the student's
+                input must match the register number and date of birth
+                that the faculty entered. Every result value needs to be
+                stored in the database. PHP will be used to retrieve the
+                data from the database when the user enters a unique
+                register number. When a student wants to compute his
+                CGPA, they should use the CGPA calculator button
+                located at the bottom of the student login page.</p>
+        </div>
+        <div class="project">
+            <h3>Random Number Guessing Game</h3>
+            <p> Using HTML, CSS, and JavaScript, I made a game/challenge named "Guessing the Number Challenge". In this project, a random number is automatically generated by the system, and the user inputs a number between 1 and 100. If both numbers match, the game is completed.
+                For example, if the computer generates the number 26 and the user enters 50, the system will indicate that the number is too high, implying that the generated number is below 50. Then entering the number 22, the computer will say that the entered number is too low, indicating that the number is greater than 22. This is the general concept of this game.
+            
+                After finding the correct random number, the system will display the attempts made by you. If you want to play the game again, there's a "Play Again" button. Clicking that button allows you to replay the game. Through this small project, I'm confident that I've learned CSS, HTML, and JavaScript well.
+                
+                I've also converted my project into a web host, and you can play this game on your mobile phone / PC. The post link is given below:
+                <br>
+              <a href="https://venerable-sunflower-3aacf2.netlify.app/">Click here to see my project</a>  
+                <br>
+                Thank you.
+                </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="C:\Users\aashath\Downloads\aashath_resume.pdf" target="_blank">here</a>.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"Mohamed Aashath is an amazing web developer with a creative mind and strong technical skills. Highly
+                recommended!"</p>
+            <cite>- Dr.Sridharan (Professor) </cite>
+        </div>
+        <div class="testimonial">
+            <p>"I was impressed by the attention to detail and professionalism in Mohamed Aashath's work. A pleasure to
+                collaborate with."</p>
+            <cite>- Pradeep (Entrepreneur)</cite>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: aashathpanimalar@gmail.com
+        </p>
+        <p>Phone: +91 9962526764</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mohamed Aahsath. All rights reserved.</p>
+        <!-- Additional links or information can be added here -->
+    </footer>
+
+</body>
+
+</html>
